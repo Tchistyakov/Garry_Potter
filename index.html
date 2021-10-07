@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap" rel="stylesheet">
+    <title>characters</title>
+</head>
+<body>
+    <header class="header">
+        <h1 class="font font_h1 font_h1_position">Harry Potter</h1>
+        <h2 class="font font_h2 font_h2_position">View all characters from the Harry Potter universe</h2>
+        <form action="" class="form font form_font">
+            <div class="input_position">
+                <label class="font_label">Name</label>
+                <input type="text" value="Hermione" name="Name" class="input">
+            </div>
+            <div class="input_position">
+                <label class="font_label">School</label>
+                <select name="School"  value="Choose one" id="form__select">
+                    <option value="Choose one" selected>Choose one</option>
+                    <option value="value">Hogwarts</option>
+                    <option value="value">Beauxbatons</option>
+                    <option value="value">Ilvermorny</option>
+                </select>
+            </div>
+        </form>
+    </header>
+    <main class="main">
+        <div class="main_grid" id="main_grid">
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

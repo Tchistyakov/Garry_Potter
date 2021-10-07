@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    width: 768px;
+    height: 334px;
+    margin: 0 auto;
+    background-color: rgba(245, 245, 245, 1);
+    border-bottom: 1px solid #DEE2E6;
+}
+
+.font, p {
+    font-family: Inter;
+    color: #000000;
+}
+
+p {
+    color: #152536;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.font_h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 77px;
+    letter-spacing: -0.02em;
+}
+
+.font_h1_position {
+    padding-top: 64px;
+    margin-left: 40px;
+}
+
+.font_h2 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 36px;
+}
+
+.font_h2_position {
+    margin-top: 1px;
+    margin-left: 40px;
+}
+
+.font_h3 {
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24.2px;  
+    color: #152536;
+}
+
+.form {
+    width: 688px;
+    position: relative;
+    top: 48px;
+    left: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.font_label {
+    font-size: 16px;
+    line-height: 28px;
+    color: #818182;
+}
+
+.input_position {
+    display: grid;
+}
+
+.input {
+    width: 452px;
+    height: 38px;
+    background: #FFFFFF;
+    border: 1px solid #CED4DA;
+    box-sizing: border-box;
+    border-radius: 4px;
+    color: #ABB5BE;
+    font-size: 16px;
+    line-height: 21px;
+    padding: 18px;
+}
+
+#form__select {
+    width: 216px;
+    height: 38px;
+    background: #FFFFFF;
+    border: 1px solid #CED4DA;
+    box-sizing: border-box;
+    border-radius: 4px;
+    color: #ABB5BE;
+    font-size: 16px;
+    line-height: 21px;
+    padding: 18px;
+}
+
+.main {
+    width: 768px;
+    margin: 0 auto;
+    background-color: rgba(245, 245, 245, 1);
+    padding: 40px;
+    box-sizing:border-box
+}
+
+.main__card {
+    width: 334px;
+    height: 409px;
+    background: #FFFFFF;
+    border: 1px solid #DEE2E6;
+    box-sizing: border-box;
+    border-radius: 4px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.main__card:nth-child(odd) {
+    margin-right: 20px;
+}
+
+.card_image {
+    background-color: rgb(206, 187, 224);
+    width: 334px;
+    height: 192px;
+}
+
+.card_content {
+    padding: 24px;
+    box-sizing: border-box;
+}
+
+.main_grid {
+    display: grid;
+    width: 688px;
+    grid-template-columns: 354px 1fr;
+}
